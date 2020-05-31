@@ -1,3 +1,6 @@
+#ifndef K_WAY_MERGE_SORT_H
+#define K_WAY_MERGE_SORT_H
+
 #include <vector>
 #include <limits>
 using namespace std;
@@ -89,4 +92,4 @@ void KWayMerge::sort(vector<int> &numArr, vector<int> &helperArr, int kPartition
     KWayMergeSort(numArr,helperArr,kPartitions, 0, numArr.size() - 1);
 }
 
-
+#endif //K_WAY_MERGE_SORT_H
